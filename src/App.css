@@ -1,0 +1,58 @@
+
+body {
+  background: rgb(130, 131, 131);
+  
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  font-size: bold;
+}
+.container > form {
+  width: 70%;
+  border: 5px solid #252323;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  font-weight: bold; 
+}
+
+.container > div {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(29, 252, 9);
+}
+
+
+
+ pre{
+  width: 70%;
+  color: rgb(8, 2, 2);
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+
+ }
+
+ button{
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+ }
+ button:hover{
+  background-color: rgb(251, 251, 253);
+  color: #fa0c03;
+ }
+
+  p {
+    color: red;
+  }
+
+
